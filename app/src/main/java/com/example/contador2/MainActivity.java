@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        contador = 0;
+        contador = 1;
     }
 
     public void incrementaContador (View vista){
